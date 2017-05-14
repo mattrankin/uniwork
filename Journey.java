@@ -44,4 +44,8 @@ public class Journey {
 		return stops;
 	}
 
+	public void setStops(ArrayList<String> stopsToSave) {
+		this.stops = stopsToSave;
+	}
+
 }

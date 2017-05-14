@@ -12,9 +12,9 @@ public class MainWindow extends JFrame {
 		//InputPanel inputPanel2 = new InputPanel();
 
         add(inputPanel,BorderLayout.CENTER);
-		//add(inputPanel2,BorderLayout.SOUTH);
 
         setSize(400,500);
+
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
