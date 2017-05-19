@@ -9,9 +9,8 @@ public class MainWindow extends JFrame {
         JComboBox fromBox = new JComboBox(placeNames);
         JComboBox toBox = new JComboBox(placeNames);
         InputPanel inputPanel = new InputPanel();
-		//InputPanel inputPanel2 = new InputPanel();
 
-        add(inputPanel,BorderLayout.CENTER);
+        add(inputPanel);
 
         setSize(400,500);
 
